@@ -1,0 +1,1 @@
+javascript:(()=>{fetch('https://raw.githubusercontent.com/ScionCZ/Youtube-channel-videos-export/main/script.js').then(r=>r.text()).then(code=>eval(code)).catch(e=>alert('Error loading script: ' + e));})()
